@@ -20,7 +20,8 @@
                 clifford: '#da373d',
                 'brown-cl': "#B68C5A",
                 'font-basic-one' : "font-family: 'EB Garamond', serif;",
-                'font-basic-two' : "font-family: 'Poppins', sans-serif;"
+                'font-basic-two' : "font-family: 'Poppins', sans-serif;",
+               
               }
             }
           }
@@ -65,16 +66,21 @@
               </div>
         </nav>
         <!-- banner section container -->
-        <div>
-          <div class="hero px-60 py-32" style="background-image: url(./images/banner.png);">
-            <div class=""></div>
-            <div class="hero-content text-center We Provide Effective Legal Solutions">
-              <div class="">
+        <div class=" mt-5 lg:mt-12">
+          <!-- banner-section -->
+          <div class="hero" style="background-image: url(./images/banner.png),linear-gradient(180deg, #111 0%, rgba(17, 17, 17, 0.00) 100%);">
+            <div class="hero-overlay bg-opacity-60"></div>
+            <div class="hero-content text-center text-neutral-content">
+              <div class="max-w-screen-xl px-0 lg:px-56 py-0 lg:py-28">
                 <h1 class="mb-6 text-7xl font-extrabold text-white font-[font-basic-one] ">We Provide Effective<br>
-                   Legal Solutions</h1>
-                <p class="mb-6 text-base font-normal text-[#E7E7E7]">There are many variations of passages of Lorem Ipsum available, but the majority<br>
-                   have suffered alteration in some form, by injected humour</p>
-                <button class="btn  bg-brown-cl border-none text-white font-[font-basic-two]">Get Started</button>
+                  Legal Solutions</h1>
+                  <p class="mb-6 text-base font-normal text-[#E7E7E7]">There are many variations of passages of Lorem Ipsum available, but the majority<br>
+                    have suffered alteration in some form, by injected humour</p>
+ 
+                    <div class="flex flex-col lg:flex-row justify-center items-center gap-2">
+                      <input type="text" placeholder="Search your services" class="input  w-full max-w-xs text-[#A0A0A0]" />
+                      <button class="btn  bg-brown-cl border-none text-white font-[font-basic-two]">Get Started</button>
+                    </div>
               </div>
             </div>
           </div>
